@@ -18,7 +18,7 @@ export const GET = async (request) => {
 
 
     console.log("--------decode start");
-    const sessionToken=request.cookies.get("next-auth.session-token")?.value;
+    const sessionToken=request.cookies.get("__Secure-next-auth.session-token")?.value;
     console.log(sessionToken);
     const decoded=await decode({
         token:sessionToken,
