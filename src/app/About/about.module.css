@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+.MNav{
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+
+}
+.aboutHero{
+    padding: 10% 0% 5% 10%;
+
+}
+.aboutPic{
+
+    width: 95%;
+    margin-top: 10%;
+
+}
+.cartStyle{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px -5px 5px rgba(145, 144, 144, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index:100000;
+    transition: right 0.3s ease-in-out;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) ; }
+
+    50% { transform: translate(10px, 20px) ; }
+    100% { transform: translate(1px, 1px) ; }
+}
+
+
+.aboutPics{
+    margin-top: -3%;
+}
+.AboutMain{
+    width: 100%;
+    background-image: linear-gradient(to top, #e1eaf0, #eaeff4, #f2f4f8, #f9f9fb, #ffffff);
+}
+.aboutEat{
+    font-size: 500%;
+    font-weight: 700;
+    background-image: linear-gradient(to left top, #ababab, #8e8e8e, #727272, #575757, #3d3d3d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+
+    word-spacing: 10px;
+}
+
+.aboutEatPost{
+    font-size: 350%;
+
+    font-weight: 100;
+    color: #696868;
+    word-spacing: 10px;
+
+}
+
+.aboutEatQuotes{
+    margin-top: 5%;
+    font-size: 100%;
+    width: 85%;
+    word-spacing: 5px;
+    color: grey;
+}
+.Aboutimg1{
+
+    border-radius: 50%;
+    box-shadow: 15px 10px 10px rgba(108, 99, 97, 0.2) !important;
+}
+.aboutFeedText{
+    font-size: 70%;
+    text-align: left;
+    word-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: #505050;
+
+}
+.aboutfeed{
+    width: 50%;
+    margin-top: -30%;
+    margin-bottom: 10%;
+    background: rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    animation: shake 3s infinite;
+
+}
+.feedBoxHead{
+    font-weight: 700;
+}
+.feedBoxRating{
+    padding: 1px;
+    width: 25%;
+    font-size: 85%;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.homebutton{
+    margin-top: 10%;
+    margin-left: 7%;
+
+}
+.homebuttonmenu{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+
+
+    margin-right: 10%;
+    padding: 15px 30px;
+    width: 20px;
+    color:white;
+    font-weight: 700;
+    box-shadow: 5px 35px 20px rgba(255, 69, 0, 0.2);
+
+    transform: skew(20deg, 0deg) scale(1.1);
+    transition: all 0.4s ease;
+
+}
+.homebuttonmenu::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: -9%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: rgb(199, 199, 199);
+    z-index: 10;
+    transition: all 0.4s ease;
+
+}
+
+.homebuttonmenu::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.4s ease;
+    z-index: -1;
+
+}
+
+.homebuttonmenu:hover::after{
+    background-color: rgba(148, 148, 148, 0.205);
+    transform: skew(20deg, 0deg) translateX(155px);
+
+
+}
+
+.homebuttonmenu:hover::before{
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+
+}
+.homebuttonmenu:hover{
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    color: lightslategrey;
+}
+.homebuttoncart{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+    box-shadow: 5px 35px 20px rgba(55, 55, 68, 0.2);
+
+
+
+    margin-right: 10%;
+    padding: 15px 30px;
+    width: 20px;
+    color:white;
+    font-weight: 700;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+    transition: all 0.4s ease;
+
+}
+
+
+
+.homebuttoncart::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: -9%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: rgb(199, 199, 199);
+    z-index: 10;
+    transition: all 0.4s ease;
+
+}
+
+.homebuttoncart::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #373744;
+    border: 2px solid #373744;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.4s ease;
+    z-index: -1;
+
+}
+
+.homebuttoncart:hover::after{
+    background-color: rgba(148, 148, 148, 0.205);
+    transform: skew(20deg, 0deg) translateX(120px);
+
+
+}
+
+.homebuttoncart:hover::before{
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+
+}
+.homebuttoncart:hover{
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    color: lightslategrey;
+}
+.aboutScooter{
+    background-color: #FDE9E4;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 65px;
+    width: 70px;
+}
+.bFrench{
+    background-color: #E6F6FC;
+    border-radius: 10px;
+    padding: 3px;
+    height: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 70px;
+}
+.splCombo{
+    background-color: #E6F6FC;
+    border-radius: 10px;
+    padding: 3px;
+    height: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+
+}
+.feedBoxAbout{
+    font-weight: 600;
+    color: #434b64;
+    width: 90%;
+    word-spacing: 2px;
+}
+.aboutFeedTextFeature{
+    font-size: 75%;
+    color: grey;
+}
+.aboutFeature{
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 9999;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 20px;
+
+
+
+}
+.aboutFeatureMain{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10% !important;
+    z-index: 1000;
+
+
+}
+.aboutRPic {
+    z-index: -10!important;
+    margin-top: -7%;
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.aboutResSemiTag{
+    word-spacing: 3px;
+    color:orangered;
+    font-size: 140%;
+    font-weight: 550;
+}
+.aboutResSemiTag spam{
+    font-size: 170%;
+    font-weight: 400;
+}
+.aboutResSemiTag2{
+    font-size: 270%;
+
+    font-weight: 200;
+    color: #696868;
+    word-spacing: 10px;
+
+}
+.explorebuttonmenu{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+
+
+    margin-right: 10%;
+    padding: 15px 30px;
+    width: 20px;
+    color:white;
+    font-weight: 700;
+    box-shadow: 5px 35px 20px rgba(255, 69, 0, 0.2);
+
+    transform: skew(20deg, 0deg) scale(1.1);
+    transition: all 0.4s ease;
+
+}
+.explorebuttonmenu::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: -9%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: rgb(199, 199, 199);
+    z-index: 10;
+    transition: all 0.4s ease;
+
+}
+
+.explorebuttonmenu::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.4s ease;
+    z-index: -1;
+
+}
+
+.explorebuttonmenu:hover::after{
+    background-color: rgba(148, 148, 148, 0.205);
+    transform: skew(20deg, 0deg) translateX(195px);
+
+
+}
+
+.explorebuttonmenu:hover::before{
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+
+}
+.explorebuttonmenu:hover{
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    color: lightslategrey;
+}
+.rotationArea{
+    margin-top: 2%;
+}
+.chooperFood{
+    margin-top: -30%;
+    margin-left: 60%;
+}
+.aboutResSemiTag{
+    margin-top: -20%;
+}
+
+@media only screen and (max-width: 400px) {
+    .AboutMain{
+        padding-top: 8%;
+
+    }
+    .aboutEat{
+        font-size: 350%;
+    }
+    .aboutHero{
+        padding-left: 5% !important;
+
+    }
+    .aboutEatPost{
+        font-size: 250% !important;
+        word-spacing:2px !important;
+    }
+    .homebutton{
+        width: 105%;
+        margin-left: -3%;
+        scale: 0.8;
+
+    }
+    .aboutfeed{
+
+        width: 90%;
+    }
+
+    .Aboutimg1{
+        width: 40%;
+    }
+    .feedBoxHead{
+        margin-left: 50%;
+        margin-top: -25%;
+    }
+    .feedBoxRating{
+        margin-left: 50%;
+        margin-bottom: 10%;
+    }
+    .aboutPic{
+        width: 120% !important;
+    }
+    .aboutFeatureMain{
+        width: 90%;
+
+    }
+    .aboutFeature{
+        margin-left: 0 !important;
+        margin-bottom: 5% !important;
+    }
+    .feedBoxAbout{
+        margin-left: 30%;
+        margin-top: -17%;
+        width: 70%;
+
+    }
+    .aboutFeedTextFeature{
+        margin-top: -2% !important;
+    }
+    .aboutRPic{
+        margin-top: -10%;
+    }
+    .chooperFood{
+        width: 50%;
+        margin-top: -30%;
+        margin-left: 65%;
+
+    }
+    .rotationArea{
+        margin-left: 5% !important;
+    }
+    .aboutResSemiTag{
+        margin-top: -50%;
+        width: 50%;
+    }
+    .chooperFoodRes{
+        font-size: 140% !important;
+    }
+    .aboutResSemiTag2{
+        font-size: 200%;
+
+    }
+    .aboutEatQuotes{
+        font-size: 90%;
+        width: 100%;
+    }
+    .homebutton{
+        margin-bottom: 10%;
+    }
+
+
+
+
+}

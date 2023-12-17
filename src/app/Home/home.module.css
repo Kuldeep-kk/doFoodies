@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+
+.mainHead{
+
+    padding: 10px 0px 0px 150px;
+}
+.cartStyle{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px -5px 5px rgba(145, 144, 144, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index:100000;
+    transition: right 0.3s ease-in-out;
+}
+
+.NavS{
+    background: rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+
+}
+.MNav{
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+
+}
+.dropDownUser{
+    position: absolute;
+    right: 0;
+}
+.dropDownUserMenu{
+    position: absolute;
+    top: 25px;
+    right: 65px;
+    background: rgba(250, 250, 250, 0.37);
+    border-radius:10px;
+
+}
+.logoutBtn{
+    background: orangered;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 7px;
+}
+.logoutBtn:active{
+    background: #c03601;
+}
+.propic{
+    width:55%;
+
+}
+.slide {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: transform 1s ease-in-out; /* Transition for transform property */
+}
+
+.slide.active {
+    transform: translateX(0); /* Slide in from the right */
+}
+
+.slide.exit {
+    transform: translateX(100%); /* Slide out to the right */
+}
+
+
+.menuLogo{
+    width:75%;
+    margin-top:5%;
+    margin-left:5%;
+}
+.clearbg{
+
+
+}
+.blurbg{
+
+    transition: 1s all ease-in-out;
+    height: 100%;
+    width: 100%;
+
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+
+    z-index: 1000000 !important;
+
+}
+
+.mainHead{
+
+    width: 45%;
+    margin-top: 7% !important;
+
+}
+.headP{
+    margin-top: 5%;
+    width: 95%;
+    font-size: 120%;
+    font-weight: 500;
+    color: #828282;
+}
+.headW{
+    color: orangered;
+    font-size: 685%;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    overflow-y:hidden;
+}
+.preHead{
+    color: orangered;
+    font-weight: 700;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.homebutton{
+    margin-top: 20%;
+    margin-left: 7%;
+}
+@media only screen and (max-width: 400px) {
+    .homemain{
+        width: fit-content !important;
+    }
+    .mainHead{
+        margin: auto;
+
+        width: 80% !important;
+    }
+    .headW{
+        font-size: 300% !important;
+
+    }
+    .headP{
+        margin-top: -12% !important;
+    }
+    .homemain{
+        width: 120%;
+        margin-left: -10%;
+    }
+    .homebutton{
+        width: 150% !important;
+        margin-left: -3%;
+    }
+    .homeCompTime{
+        margin-top: -13%;
+    }
+    .menuLogo{
+        margin-top:-12%;
+        scale: 0.7;
+    }
+    .sizeNav{
+        z-index: 1000;
+
+    }
+    .propic{
+
+        width: 100%;
+        margin-top: -15%!important;
+        margin-bottom: 80%;
+        margin-left: 10%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .mainHead{
+        width: 55%;
+        padding:70px 30px;
+    }
+    .headW{
+        font-size: 500%;
+    }
+    .headP{
+        margin-top: -5%;
+        font-size: 85%;
+        width:100%;
+    }
+    .homebutton{
+        width: 120%;
+        margin-left: -3%;
+        scale: 0.8;
+
+    }
+    .homeCompTime{
+        margin-top: -13%;
+    }
+    .homeTimeHeadInterval{
+
+        scale: 0.9;
+        margin-left: -5%;
+        width: 100% !important;
+
+    }
+    .propic{
+        margin-top: 15%;
+    }
+
+}
+
+
+.homebuttonmenu{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+
+
+    margin-right: 10%;
+    padding: 15px 30px;
+    width: 20px;
+    color:white;
+    font-weight: 700;
+    box-shadow: 5px 35px 20px rgba(255, 69, 0, 0.2);
+
+    transform: skew(20deg, 0deg) scale(1.1);
+    transition: all 0.4s ease;
+
+}
+.popTrans{
+    transition: 1s all ease-in-out;
+    position: fixed;
+    top:10px;
+
+
+    justify-content: center !important;
+    align-items: center !important;
+
+
+
+
+    animation-iteration-count: 1;
+    animation: popup 0.5s steps(20) ;
+
+}
+
+
+
+.homebuttonmenu::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: -9%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: rgb(199, 199, 199);
+    z-index: 10;
+    transition: all 0.4s ease;
+
+}
+
+.homebuttonmenu::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: orangered;
+    border: 2px solid orangered;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.4s ease;
+    z-index: -1;
+
+}
+
+.homebuttonmenu:hover::after{
+    background-color: rgba(148, 148, 148, 0.205);
+    transform: skew(20deg, 0deg) translateX(170px);
+
+
+}
+
+.homebuttonmenu:hover::before{
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+
+}
+.homebuttonmenu:hover{
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    color: lightslategrey;
+}
+
+.homebuttoncart{
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    text-decoration: none;
+    box-shadow: 5px 35px 20px rgba(55, 55, 68, 0.2);
+
+
+
+    margin-right: 10%;
+    padding: 15px 30px;
+    width: 20px;
+    color:white;
+    font-weight: 700;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+    transition: all 0.4s ease;
+
+}
+
+
+
+.homebuttoncart::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: -9%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: rgb(199, 199, 199);
+    z-index: 10;
+    transition: all 0.4s ease;
+
+}
+
+.homebuttoncart::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #373744;
+    border: 2px solid #373744;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.4s ease;
+    z-index: -1;
+
+}
+
+.homebuttoncart:hover::after{
+    background-color: rgba(148, 148, 148, 0.205);
+    transform: skew(20deg, 0deg) translateX(160px);
+
+
+}
+
+.homebuttoncart:hover::before{
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+
+    transform: skew(20deg, 0deg) scale(1.1);
+
+}
+.homebuttoncart:hover{
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    color: lightslategrey;
+}
+.homeTimeHead{
+    width: 30%;
+    margin-top: 30%;
+}
+.homeMorningTime{
+    margin-left: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #646464;
+}
+.homeEveningTime{
+    margin-left: 80%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #646464;
+
+}
+.homeTimeHeadInterval{
+
+    width: 90%;
+
+    margin-top: 2%;
+}
+
+.homeMorningTimeInterval{
+    font-weight: 600;
+    margin-left: 10%;
+    color: darkgrey;
+}
+.homeEveningTimeInterval{
+    margin-left:14% ;
+    font-weight: 600;
+
+    color: darkgrey;
+}
+/*---------------------------------*/
+.listItem{
+    color: #444444;
+    padding:2px 10px;
+    text-shadow: 2px 2px 2px white;
+    border-radius:5px;
+}
+.listItem:hover{
+    background: rgba(206, 206, 206, 0.51);
+}
+.listItem:active{
+    scale:0.9;
+}
+.listItemOut{
+    color: #444444;
+    padding:2px 10px;
+    text-shadow: 2px 2px 2px white;
+    border-radius:5px;
+
+}
+.listItemOut:hover{
+    background: rgb(255, 3, 3);
+    color: white;
+
+}
+.listItemOut:active{
+    scale:0.9;
+}
+.listItem:hover >*{
+    color:red;
+    scale:1.3;
+}
+.mainList{
+    background: rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.slide-in-right {
+    transform: translateX(100%);
+    animation-name: slideInRight;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Slide-out to the right */
+.slide-out-right {
+    transform: translateX(0);
+    animation-name: slideOutRight;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+

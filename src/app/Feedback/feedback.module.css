@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+.mainHead{
+    font-family: 'Tilt Neon', sans-serif;
+    background-image: linear-gradient(to right top, #8b8b8b, #a0a0a0, #b5b5b5, #cacaca, #e0e0e0);-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.quotes{
+    text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.27);
+}
+
+
+.contactUsButton{
+    position: relative;
+    text-decoration: none;
+    margin-right: 10%;
+    padding: 9px 25px;
+    width: fit-content;
+    color:white;
+    font-weight: 700;
+    scale: 0.95;
+    box-shadow: 5px 35px 20px rgba(255, 69, 0, 0.2);
+
+    transform: skew(20deg, 0deg) scale(1.1);
+    transition: all 0.4s ease;
+}
+
+
+.contactUsButton::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: -9%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: rgb(199, 199, 199);
+    z-index: 10;
+    transition: all 0.4s ease;
+
+}
+
+.contactUsButton::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-image: linear-gradient(to right, #ff6525, #ff6d32, #ff763e, #ff7d49, #ff8554);
+    border: 2px solid #ff6525;
+    border-radius: 0px 10px 10px 0px;
+    transition: all 0.4s ease;
+    z-index: -1;
+
+}
+
+.contactUsButton:hover::after{
+    background-color: rgba(148, 148, 148, 0.205);
+    transform: skew(20deg, 0deg) translateX(170px);
+}
+
+.contactUsButton:hover::before{
+    background-color: transparent;
+    border-radius: 10px 0px 0px 10px;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+.contactUsButton:hover{
+    cursor: pointer;
+}
+@media only screen and (max-width: 900px) {
+    .contactUsButton{
+        padding:5px 10px;
+        scale: 0.8;
+    }
+    .mainFeedback{
+        height: 80vh;
+    }
+}

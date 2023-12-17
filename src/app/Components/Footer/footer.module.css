@@ -1,0 +1,157 @@
+.fMain{
+    background-image: linear-gradient(to bottom, #d7d7d7, #cdcdcd, #c2c2c2, #b8b8b8, #aeaeae, #a4a4a4, #999999, #8f8f8f, #818181, #747474, #676767, #5a5a5a); width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    padding:3%;
+}
+.cartStyle{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px -5px 5px rgba(145, 144, 144, 0.4);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+.compName{
+    font-size: 150%;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px orangered;
+}
+.compName sup{
+    font-size: 60%;
+    font-weight: 200;
+
+}
+.icface{
+    color: white;
+    transition: 0.1s !important;
+}
+.icface:hover{
+
+    scale: 1.5;
+    color: #52d1ff !important;
+
+}
+.ictwitter{
+   color: white;
+}
+.ictwitter:hover{
+    scale: 1.5;
+    color: #1EA1F2;
+
+}
+.icinsta{
+    color: white;
+}
+.icinsta:hover{
+    scale: 1.5;
+    color: orangered;
+
+}
+.iclink{
+    color: white;
+
+}
+.iclink:hover{
+    scale: 1.5;
+    color: #3baafa;
+
+}
+.icfaces{
+
+    margin-left: 10%;
+}
+.socialTag{
+    margin-top: 20%;
+}
+.compContact{
+    text-shadow: -2px 2px 20px #d5d5d5;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+
+}
+.compContactBlock{
+    margin-top: 10%;
+
+
+}
+.icLoc{
+    color: white;
+}
+.icMail{
+
+    color: white;
+}
+.icMob{
+    color: white;
+}
+.compSupport{
+    text-shadow: -2px 2px 20px #d5d5d5;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+
+
+}
+.compContactSupport{
+    margin-top: 10%;
+
+
+}
+.compinfo{
+    text-shadow: -2px 2px 20px #d5d5d5;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    .fMain{
+        width: 100% !important;
+
+    }
+    .socialTag{
+        margin-top: 5%;
+
+
+    }
+    .compName{
+        font-size: 200% !important;
+    }
+    .compContactBlock{
+        margin-left: 5%;
+    }
+    .compContactSupport
+    {
+        margin-left: 5%;
+    }
+    .compContactSupport{
+        margin-left: 5%;
+    }
+    .compContact{
+        width: 30%;
+        padding-left: 5%;
+        border-radius: 20px;
+        border-bottom: 2px solid #7e7e7e !important;
+        margin-top: 10%;
+        margin-bottom: -5%;
+    }
+    .compSupport{
+        width: 30%;
+        padding-left: 5%;
+        border-radius: 20px;
+        border-bottom: 2px solid #7e7e7e !important;
+        margin-top: 10%;
+        margin-bottom: -5%;
+    }
+    .compinfo{
+        border-bottom: 2px solid #606060 !important;
+        width: 30%;
+        padding-left: 5%;
+        border-radius: 20px;
+        margin-top: 10%;
+        margin-bottom: -5%;
+    }
+}
+
+

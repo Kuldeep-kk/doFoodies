@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400&display=swap');
+
+.mPage{
+    background-image: linear-gradient(to bottom, rgba(247, 152, 141, 0.6), rgba(248, 161, 150, 0.6), rgba(249, 169, 160, 0.6), rgba(250, 178, 169, 0.6), #fabab3);
+    height:500px;
+
+    width:850px;
+    border-radius:20px;
+}
+.headTitle{
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    text-shadow:3px 3px 1px rgba(255, 255, 255, 0.58);
+    font-weight:500;
+
+
+}
+.foodPic{
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    border-radius: 50%;
+}
+.cardTitle{
+    font-size: 105%;
+    font-weight: 600;
+    color: #484747;
+}
+@media only screen and (max-width: 900px) {
+    .mPage {
+        height: 800px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .mPage {
+        height: 600px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+
+.osTag{
+    color: #373744;
+    font-size: 120%;
+    font-weight: 700;
+    word-spacing: 3px;
+
+
+}
+.osPPHead{
+    color: orangered;
+    font-size: 300%;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+.bottomLineDiv{
+    width:10%;
+    height: 50%;
+
+    margin-left: 40%;
+
+}
+.SLeaf{
+  width: 5%;
+    margin-left: -2%;
+}
+@media only screen and (max-width: 900px) {
+    .SLeaf{
+        margin-left: -4%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .popularp{
+        width: 100%;
+
+    }
+    .osPPHead{
+        font-size: 200%;
+
+    }
+    .bottomLineDiv{
+        width:25%;
+        height: 50%;
+
+        margin-left: 30%;
+
+    }
+    .SLeaf{
+        width: 7%;
+        margin-left: 2%;
+    }
+    .popularp{
+        overflow-x: hidden !important;
+        margin-top: -20% !important;
+
+
+    }
+    .dishbox{
+        margin: auto;
+        margin-top: -15% !important;
+
+        width: 90%;
+        scale: 0.9;
+
+
+
+    }.dishbox2{
+        margin-top: -17%;
+
+
+     }
+    .dishMainBox{
+        margin-left: 4%;
+        width: 100%;
+    }
+
+
+}
+.addcartbut{
+    margin-top: 10%;
+    background-color: orangered;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 80%;
+
+    display:inline-block;
+    transform: skew(-20deg);
+
+}
+.addcartbut:hover{
+    background-color: #a9ce74;
+    cursor: pointer;
+}
+.addcartbut strong{
+    display:inline-block;
+    transform: skew(20deg);
+}
+.addcartbut code{
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+    margin-left: 5%;
+    font-size:120%;
+    display:inline-block;
+    transform: skew(20deg);
+}
+
+.dishPic{
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    border-radius: 50%;
+
+}
+.dishbox{
+    border: 0px;
+    margin: 90px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+
+}
+
+.dishTitle{
+    font-size: 150%;
+    font-weight: 700;
+}
+.dishSubTitle{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: grey;
+}

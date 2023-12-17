@@ -1,0 +1,48 @@
+.cartImage{
+
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    border-radius: 50%;
+}
+.cartCard{
+    background: rgba(190, 190, 190, 0.25);
+    border-radius: 30px 5px 5px 30px;
+
+}
+.cartTitle{
+    font-weight:400;
+    color: #888888;
+    text-shadow:1px 1px 1px #ffffff;
+}
+.minusCart{
+    color: rgba(128, 128, 128, 0.63);
+    font-size:13px
+
+}
+.minusCart:hover{
+    color: #84d206;
+    cursor:pointer;
+
+}
+.minusCart:active{
+    scale:2;
+}
+.plusCart{
+    color: rgba(128, 128, 128, 0.63);
+    font-size:13px;
+
+}
+.plusCart:hover{
+    color:orangered;
+    cursor:pointer;
+}
+.plusCart:active{
+    scale:2;
+}
+.Cross{
+    color: #c2bcbc;
+}
+.Cross:hover{
+    color: orangered;
+    scale: 1.2;
+    transform: rotate(180deg);
+}

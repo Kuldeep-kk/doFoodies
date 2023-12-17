@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.MenuHead{
+    width: 90%;
+    margin: auto;
+
+}
+.searchHeader{
+    background-image: linear-gradient(to left top, #ff0000, #ff2d26, #ff453f, #ff5855, #ff6a6a);
+    width: 100%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+.sideBarFoodie{
+
+    border-left: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+
+    height: 500px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+.MenuSectionHead{
+    width: 97%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.menuLayout{
+  padding-left: 20%;
+
+
+    color: orangered;
+}
+.MenuSectionHeadTitle{
+    font-weight: 600;
+    color: #575757;
+
+}
+.cardFood{
+    border-radius: 30px;
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+
+    margin-bottom: 10%;
+    border: none;
+    border-top:2px solid #d9d8d8;
+    width: 100%;
+}
+.SFood{
+
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    border-radius: 50%;
+
+
+
+}
+.cardHeading{
+    font-size: 105%;
+    font-weight: 600;
+    color: #484747;
+}
+
+.cardText{
+    color: #757575;
+    width: 80% ;
+    margin: auto;
+    text-align: center;
+}
+.spanDiv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.cardsy1 code{
+
+    font-size: 150%;
+    color: #78d210;
+
+}
+.cardsy2{
+    background-color: #ff0101 !important;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+
+
+}
+.cardsy3{
+
+    background-color: #282828 !important;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+.span2{
+    margin-left: 59%;
+}
+.span3{
+    margin-left: 5%;
+}
+
+
+.getmail:before, .getmail:after{
+    content:"";
+    display:table;
+}
+
+.getmail:after{
+    clear:both;
+}
+
+.getmail{
+    zoom:1;
+}
+
+.getmail {
+
+    padding-top: 5px !important;
+    padding-bottom: 4px !important;
+    padding-right: 4px;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 40px;
+    background: transparent;
+    box-shadow: 5px 5px 20px 10px rgba(162, 159, 157, 0.2);
+}
+
+/* Form text input */
+
+.getmail input {
+    box-shadow: none;
+
+    width: 85%;
+
+    padding: 10px 5px;
+    padding-left: 20px;
+    height: 5px ;
+    margin-top: 1%;
+    float: left;
+    font:  15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    color: dodgerblue;
+    background: #fff;
+    border-radius: 40px;
+    border-top-style: none;
+}
+
+.getmail input:focus {
+    outline: 0;
+    background: #fff;
+
+}
+
+.getmailinput::-webkit-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.getmail input:-moz-placeholder {
+
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.getmail input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+    border-style: none;
+}
+
+/* Form submit button */
+.getmail button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 30px;
+    width: 35px;
+    font: 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color:orangered;
+    text-transform: uppercase;
+
+    border-radius: 40px;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+.getmail button:hover{
+color: #10ee51;
+}
+
+.getmail button:active,
+.getmail button:focus{
+    background: #198cff;
+    outline: 0;
+}
+
+.getmail button:focus:before,
+.getmail button:active:before{
+    border-right-color: #c42f2f;
+}
+
+.getmail button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}
+.radioVeg{
+
+    accent-color: #4d9103;
+    margin-right: 7%;
+    margin-left: 2%;
+
+
+
+}
+.radioNVeg{
+    accent-color: orangered;
+    margin-left: 2%;
+
+}
+.radioVegLabel{
+    margin-left: 5%;
+    font-size: 100%;
+    color: #595858;
+    margin-right: 2%;
+
+}
+.radioNVegLabel span{
+    font-size: 120%;
+}
+.radioNVegLabel{
+    margin-left: 4%;
+    font-size: 100%;
+    color: #595858;
+    margin-right: 2%;
+
+}
+.radioVegLabel span{
+    font-size: 120%;
+}
+.foodradioLabel{
+    font-size: 120%;
+    font-weight: 700;
+    color: #464646;
+    text-align: center;
+}
+.radioFoodBox{
+
+    width: 95%;
+    opacity: 0.7;
+
+    padding-top: 5%;
+    border-top: 1px solid #d2cece;
+    margin: auto;
+    margin-top: 5%;
+}
+.radiofoodLabel{
+    font-size: 120%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.priceFilterBox{
+    border-top: 1px solid #d2cece;
+
+    width: 95%;
+
+    margin: auto;
+    margin-top: 5%;
+}
+.priceSlider {
+    margin-top: 5%;
+
+    -webkit-appearance: none;
+
+    width: 100%;
+    background: transparent;
+    position: relative;
+    border-bottom: 1px solid #e1dede;
+    border-radius:  2em;
+}
+
+.priceSlider:focus {
+    outline: 0;
+}
+.priceSlider::-webkit-slider-thumb {
+
+    -webkit-appearance: none;
+
+    width: 25px;
+    height: 25px;
+    margin: 5px 0;
+    background: orangered;
+    border-radius: 100%;
+
+    box-shadow:
+            inset .8em .8em 5px -8px rgba(255, 255, 255, .4),
+            inset -.4em -.4em 10px -3px rgba(0,0,0,.2),
+            0.7em 0.5em 7px -0.5em rgba(0,0,0,.4);;
+
+    cursor: pointer;
+}
+
+.priceSlider::-moz-range-thumb {
+    width: 3em;
+    height: 3em;
+    margin: .5em 0;
+    background-color: orangered;
+    border-radius: 100%;
+    box-shadow:
+            inset .8em .8em 5px -8px rgba(255, 255, 255, .4),
+            inset -.4em -.4em 10px -3px rgba(0,0,0,.2),
+            0.7em 0.5em 7px -0.5em rgba(0,0,0,.4);
+    cursor: pointer;
+    border: 0;
+}
+.priceSlider::-webkit-slider-runnable-track {
+    background: transparent;
+    width: 100%;
+    height: 30px;
+    padding: 0 1em;
+    border-radius: 2em;
+
+    box-shadow:
+            inset .6em 1em 10px rgba(0,0,0,.15),
+            inset -.6em -1em 10px rgba(255, 255, 255, .415);
+}
+
+.priceSlider::-moz-range-track {
+    background: transparent;
+    width: 100%;
+    height: 4em;
+    padding: 0 1em;
+    border-radius: 2em;
+    box-shadow:
+            inset .6em 1em 10px rgba(0,0,0,.15),
+            inset -.6em -1em 10px rgba(255, 255, 255, .415);
+}
+.priceTag{
+    text-align: center;
+    color: #bbbbbb;
+    font-size: 110%;
+
+}
+.priceTag1{
+    color: #fa9372;
+
+    padding-left: 5px;
+    padding-right: 2px;
+    margin-bottom: 5%;
+}
+.priceTag2{
+    color: #fa9372;
+
+    padding-right: 2px;
+
+}
+.priceTag3{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.priceTagHead{
+    margin-top: 5px;
+    margin-bottom: -4px;
+    font-weight: 600;
+    background-image: linear-gradient(to left bottom, #ff4500, #ff5418, #ff6129, #ff6d37, #ff7845, #ff7845, #ff7845, #ff7845, #ff6d37, #ff6129, #ff5418, #ff4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+}
+.ratingBox{
+    border-top: 1px solid #d2cece;
+    width:95% ;
+
+    margin: auto;
+
+}
+.ratingBox h2{
+    margin: auto;
+    margin-top: 5%;
+    font-weight: 400;
+    color: #807f7f;
+    font-size: 90%;
+    border-bottom: 1px solid #d2cece;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+    padding-bottom: 2px;
+
+}
+.postRatingWord{
+    font-size: 80%;
+    font-weight: 600;
+    margin-top: 6%;
+
+    color: darkgrey;
+}
+.ratingStar{
+    margin-top: 4%;
+    color: #fc7245;
+
+}
+.ratingArea:hover{
+    background-color: #e1e1e1;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.ratingArea:hover > .postRatingWord{
+    color: #595959;
+
+}
+.resetFilterButton{
+    color: #fc7245 !important;
+
+    margin: auto;
+    margin-top: 5%;
+
+
+}
+.resetFilterButton:hover{
+    transform: rotate(360deg);
+
+}
+.selectFilterBox{
+    margin-top: 10%;
+
+    border-left: 1px solid #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    padding-bottom: 5%;
+
+
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+}
+.selectFilterBox h2{
+
+    background-image: linear-gradient(to right, #ff4a07, #ff581f, #fe652f, #fd713e, #fb7c4d);
+    width: 100%;
+    color: white;
+    font-family: 'Playfair Display', serif;
+
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+.filterAttr{
+    background-color: #e3e3e3;
+    width:45%;
+    text-align: center;
+    margin: auto;
+    margin-top:5% ;
+    border-radius: 15px;
+    color: grey;
+    justify-content: center;
+}
+.filterAttr:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.removePFilter{
+    color: #c2bcbc;
+    margin-top: -15%;
+    margin-left: 100%;
+}
+.removePFilter:hover{
+    color: orangered;
+    scale: 1.2;
+    transform: rotate(180deg);
+}
+.selectFoodOption
+{
+    text-align: center;
+    color: grey;
+    font-weight: 600;
+    margin-left: 5%;
+
+
+}
+.selectFoodOption:focus {
+    outline: 0;
+    border-top: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+   border-radius: 5px 5px 0px 0px;
+
+
+}
+.selectFoodOption option:checked {
+    background-color: #ff7948;
+    color: white;
+}
+.selectFoodOption option:hover{
+    background-color: #ff7948;
+    color: white;
+}
+/* ----------------------------------*/
+
+.selectedLayoutGrid {
+    background: #e7e7e7;
+    width: 100px;
+    padding-left: 25px;
+    border-radius: 8px;
+    right: 50px;
+
+}
+
+.normalLayoutGrid {
+    right: 100px;
+
+}
+
+.selectedLayoutList {
+    background: #e7e7e7;
+    width: 80px;
+    padding-left: 10px;
+    border-radius: 8px;
+    right: 20px
+}
+
+.normalLayoutGrid {
+    right: 100px;
+
+}
+
+.normalLayoutList {
+    right: 10px;
+
+}
+
+.cartStyle{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: -5px -5px 5px rgba(145, 144, 144, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index:100000;
+    transition: right 0.3s ease-in-out;
+}
+.heightMenu{
+    height: 650px;
+}
+@media only screen and (max-width: 900px) {
+    .heightMenu{
+        height: 80vh;
+    }
+    .selectFilterBox{
+        margin:auto;
+        margin-top: 5px;
+        width: 90%;
+        width: 90%;
+
+    }
+}

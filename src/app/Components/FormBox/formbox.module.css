@@ -1,0 +1,26 @@
+.mainFormBox{
+    background-image: linear-gradient(to bottom, #ffffff, #f7f7f7, #efefef, #e8e8e8, #e0e0e0);
+    border-top:1px solid rgba(112, 128, 144, 0.04);
+    border-left:2px solid rgba(112, 128, 144, 0.09);
+    height: 70vh;
+    width: 90vh;
+    box-shadow: 4px 4px 5px slategray;
+    border-radius: 10px;
+
+}
+.selectedFormButton{
+    background-image: linear-gradient(to right, #ff6525, #ff6d32, #ff763e, #ff7d49, #ff8554);
+
+}
+@media only screen and (max-width: 920px) {
+    .mainFormBox{
+        width: 50vh;
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .mainFormBox{
+        width: 40vh;
+        height: 70vh;
+    }
+}

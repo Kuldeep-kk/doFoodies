@@ -1,0 +1,151 @@
+.tmTag{
+    color: #373744;
+    font-size: 120%;
+    font-weight: 700;
+    word-spacing: 3px;
+
+
+}
+.tmHead{
+    color: orangered;
+    font-size: 280%;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+.tmMain{
+    width: 85%;
+}
+.tmbottomLineDiv{
+    width: 12%;
+    height: 1%;
+    margin-left: 52%;
+}
+.tmLeaf{
+    width: 5%;
+    margin-left: -11%;
+}
+.img1{
+    width: 12%;
+    border-radius: 10px;
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+
+}
+.img2{
+    width: 12%;
+    border-radius: 10px;
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+
+}
+.tmbox1{
+    width: 70%;
+    margin-left: 18%;
+    margin-top: -10%;
+
+}
+.tmbox2{
+    width: 70%;
+    margin-left: 18%;
+    margin-top: -10%;
+
+}
+.tmbox1text{
+
+    margin-top: 5%;
+    color: #646464;
+    font-weight: 500;
+    font-size: 90%;
+}
+.tmbox1head{
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 2%;
+
+}
+.tmbox1text code{
+    color: orangered;
+    font-size: 120%;
+    font-weight: 600;
+}
+.tmbox2text{
+
+    margin-top: 5%;
+    color: #646464;
+    font-weight: 500;
+    font-size: 90%;
+}
+.tmbox2head{
+    font-size: 120%;
+    font-weight: 500;
+    margin-bottom: 2%;
+
+}
+.tmbox2text code{
+    color: orangered;
+    font-size: 120%;
+    font-weight: 600;
+}
+@media only screen and (max-width: 400px) {
+    .tmMain{
+       margin-left: 15% !important;
+        width: 80% ;
+    }
+
+    .tmHead{
+        font-size: 230%;
+    }
+    .tmDel1{
+        box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    margin: auto;
+    text-align: center;
+    width: 95%;
+        border-radius: 20px;
+        border-top: 2px solid #d9d8d8;
+        margin-bottom: 15%;
+
+    }
+    .tmbox1text{
+        width: 95% !important;
+    }
+    .tmbox1{
+        margin: auto;
+        width: 100%;
+
+        margin-top: 0%;
+
+    }
+    .img1
+    {
+        width: 30%;
+        margin: auto;
+        margin-top: -15% !important;
+    }
+    .beforeimg1{
+        margin-top: 15%;
+    }
+    .tmDel2{
+        box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+        border-radius: 20px;
+        border-top: 2px solid #d9d8d8;;
+        margin: auto;
+        text-align: center;
+        width: 95%;
+    }
+    .tmbox2text{
+        width: 95% !important;
+    }
+    .tmbox2{
+        margin: auto;
+        width: 100%;
+
+        margin-top: 0%;
+    }
+    .img2
+    {
+        margin-top: -15% !important;
+        width: 30%;
+        margin: auto;
+    }
+    .tmMain{
+        margin-left: 10%;
+    }
+}

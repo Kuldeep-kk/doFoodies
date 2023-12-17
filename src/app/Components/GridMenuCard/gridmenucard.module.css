@@ -1,0 +1,91 @@
+.cardFood{
+    border-radius: 30px;
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+
+    margin-bottom: 10%;
+    border: none;
+    border-top:2px solid #d9d8d8;
+    width: 100%;
+}
+.SFood{
+
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    border-radius: 50%;
+}
+.cardFood:hover{
+    scale:1.03;
+}
+.cardFood:hover > .cardData > .SFood{
+    scale:1.1;
+    transform: rotate(20deg);
+
+}
+.cardHeading{
+    font-size: 105%;
+    font-weight: 600;
+    color: #484747;
+}
+
+.cardText{
+    color: #757575;
+    width: 80% ;
+    margin: auto;
+    text-align: center;
+}
+.spanDiv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.cardsy1{
+    text-align: left !important;
+}
+
+.cardsy1 code{
+
+    font-size: 150%;
+    color: #78d210;
+
+}
+.cardsy2{
+    background-color: #ff0101 !important;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+
+
+}
+.cardsy3{
+
+    background-color: #282828 !important;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+.span2{
+    margin-left: 59%;
+}
+.span2:hover{
+    cursor:pointer;
+}
+.span2:active{
+    scale:1.5;
+}
+.span3{
+    margin-left: 5%;
+}
+.span3:hover{
+    cursor:pointer;
+}
+.span3:active{
+    scale:1.5;
+}
+
+.newTag{
+    background-image: linear-gradient(to left top, #dbc700, #e2ce0f, #e9d61a, #f1dd23, #f8e52b);
+    color:white;
+    padding:2px 5px;
+    border-radius: 7px 7px 0px 7px;
+
+}
+

@@ -1,0 +1,65 @@
+
+.cardMain{
+    background-image: linear-gradient(to right top, #ff5936, #ff6442, #ff6e4f, #ff785a, #ff8166);
+
+    border-radius:20px;
+    box-shadow:2px 2px 15px rgba(128, 128, 128, 0.78);
+    width:350px;
+}
+.updateButton{
+    background: #ffffff;
+    width:fit-content;
+    padding:5px 10px;
+    margin-top:-15px;
+    border-radius:5px;
+    color:white;
+    box-shadow:2px 2px 10px orangered;
+    text-shadow:2px 2px 2px orangered;
+    transition:0.3s ease-in-out;
+}
+.updateButton:hover{
+    cursor:pointer;
+}
+.updateButton:active{
+    scale:0.8;
+}
+
+
+.openBottomSection{
+    background:white;
+    border-radius:12px 12px 20px 20px;
+    margin-top:-100px;
+
+}
+.closeBottomSection{
+    background:white;
+    border-radius:12px 12px 20px 20px;
+    margin-top:10px;
+
+}
+.labelStyle{
+    background-image: linear-gradient(to right top, #ff5936, #ff6442, #ff6e4f, #ff785a, #ff8166);
+    padding:3px 5px;
+    border-radius:5px 0px 0px 5px;
+}
+.submitButton{
+    background-image: linear-gradient(to right top, #ff5936, #ff6442, #ff6e4f, #ff785a, #ff8166);
+    color:white;
+    padding:3px 8px;
+    border-radius:5px;
+}
+.submitButton:active{
+    scale:0.8;
+}
+.cancelButton{
+    background-image: linear-gradient(to right top, #dddddd, #e2e2e2, #e7e7e7, #ececec, #f1f1f1);
+    padding:3px 8px;
+    border-radius:5px;
+    color: #808080;
+}
+.cancelButton:hover{
+    color: #565656;
+}
+.cancelButton:active{
+    scale:0.8;
+}

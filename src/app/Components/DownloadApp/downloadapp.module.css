@@ -1,0 +1,102 @@
+.mobileApp{
+    margin-top: -5% !important;
+    background-color: rgba(255, 198, 198, 0.37);
+    border-radius: 50px;
+    width: 90%;
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+}
+.mobile{
+    width: 90%;
+    padding-top: -5% !important;
+    padding-bottom: -5% !important;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+.qrtext{
+    margin-top: 18%;
+    color: #373744;
+    font-size: 120%;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+.phoneMain{
+
+}
+.qr{
+    margin-top: 2%;
+    width: 30%;
+}
+.qrhead{
+    margin-top: 2%;
+    color: #ec2002;
+    font-size: 250%;
+    width: 65%;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+.qrhead2{
+    margin-top: 0%;
+    color: #ec2002;
+    font-size: 250%;
+    width: 65%;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+.qrQuotes{
+    margin-top: 3%;
+    width: 70%;
+    color: slategrey;
+    font-weight: 500;
+}
+@media only screen and (max-width: 400px) {
+    .mobileApp{
+        width: 90%;
+        margin-left: 9% !important;
+    }
+    .mobile{
+        scale: 1.5;
+        margin-top: 120%;
+    }
+    .qrtext{
+
+        margin-top: -230%;
+        margin-left: 10%;
+
+    }
+    .qrhead{
+        margin-left: 10%;
+    }
+    .qrhead2{
+        width: 140%;
+        margin-left: 10%;
+    }
+    .qr{
+        margin: auto;
+        width: 50%;
+        margin-bottom: 170%;
+        margin-top: 5%;
+    }
+    .qrQuotes{
+        text-align: center;
+        margin: auto;
+        margin-top: -15%;
+        width: 90%;
+        margin-bottom: 10%;
+    }
+    .mobileApp{
+        margin-top: -15% !important;
+    }
+}
+@media only screen and (max-width: 900px){
+    .qrhead{
+        font-size: 200%;
+    }
+    .qrhead2{
+        font-size: 200%;
+        width: 90%;
+    }
+    .qrQuotes{
+        width: 90%;
+    }
+
+}

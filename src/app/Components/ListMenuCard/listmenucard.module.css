@@ -1,0 +1,59 @@
+.mainList{
+    border-top:1px solid  rgba(129, 129, 129, 0.31);
+
+
+    border-radius: 60px 7px 7px 60px;
+    box-shadow: 5px 5px 10px rgba(129, 129, 129, 0.31);
+
+}
+.listFood:hover{
+    scale:1.03;
+}
+.listFood:hover > .mainList  >.imgDiv >.SFood{
+    scale:1.3;
+    animation: rotation 15s infinite linear;
+
+}
+
+.SFood{
+    box-shadow: 5px 35px 20px rgba(108, 99, 97, 0.2) !important;
+    border-radius: 50%;
+}
+.cardsy2{
+    background-color: #ff0101 !important;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+
+
+}
+.cardsy3{
+
+    background-color: #282828 !important;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.cardsy2:hover,.cardsy3:hover{
+    cursor:pointer;
+}
+.cardsy2:active, .cardsy3:active{
+    scale:1.5;
+}
+
+.newTag{
+    background-image: linear-gradient(to left top, #dbc700, #e2ce0f, #e9d61a, #f1dd23, #f8e52b);
+    color:white;
+    padding:2px 5px;
+    border-radius: 7px 7px 0px 7px;
+
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}

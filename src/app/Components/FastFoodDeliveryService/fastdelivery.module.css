@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Public+Sans:wght@100;200;300;400&display=swap');
+
+.fastDel1{
+    width: 30%;
+}
+.fastDel2{
+    width: 70%;
+}
+.fastDel{
+    margin-top: -5% !important;
+}
+.fastDel2main{
+    background-color: rgba(255, 198, 198, 0.37);
+    height:500px;
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 20px 25px 20px rgba(197, 161, 161, 0.37) !important;
+
+}
+.fastDel2main span{
+    width: 1.7%;
+    height: 2.2%;
+
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-top: 3.5%;
+}
+.fastDel2mainspan1{
+    margin-left: 4%!important;
+    background-color: orangered;
+}
+.fastDel2mainspan2{
+    background-color: #9d9a9a;
+}
+.TLeaf{
+    height: 10%;
+    width: 10%;
+margin: auto;
+    margin-bottom: -2.5%;
+}
+.fastDel2main2{
+
+    width: 100%;
+    margin-top: 10%;
+}
+.fastDel2main21{
+
+    background-color: rgba(255, 198, 198, 0.64);
+    color: #9f9f9f;
+    font-size: 120%;
+    width: 42%;
+    border-radius: 40px;
+    padding-top:5px ;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+
+}
+.fastDel2main21 code{
+    padding-left: 20%;
+}
+.delscooter{
+    width: 20%;
+    margin-top: -13%;
+    margin-left: 70%;
+
+}
+.fastDel2main22{
+    margin-top: 2%;
+    color: #ec2002;
+    font-size: 300%;
+    width: 65%;
+    font-weight: 900;
+    font-family: 'Playfair Display', serif;
+}
+.fastcup{
+    width: 25%;
+    margin-top: -20%;
+
+    margin-left: 68%;
+    border-radius: 0px 50% 50% 50%;
+    box-shadow: 20px 35px 20px rgba(108, 99, 97, 0.2) !important;
+
+}
+.fastcube{
+    margin-top: -30%;
+    width: 12%;
+    margin-left: 5%;
+    margin-bottom: 40%;
+}
+.fastDel2main23 {
+    margin-top: 5%;
+    width: 70%;
+    color: #695353;
+    font-weight: 500;
+    font-size: 90%;
+
+}
+.fastDel2main24{
+    background-color: #373744;
+    width: 25%;
+    color: #fdfdfd;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10%;
+    text-align: center;
+    display:inline-block;
+    transform: skew(-20deg);
+
+
+    box-shadow: 20px 25px 25px rgba(108, 99, 97, 0.2) !important;
+
+}
+.fastDel2main24 strong{
+    display:inline-block;
+    font-weight: 400;
+    transform: skew(20deg);
+
+}
+.fastDel2main24:hover{
+    cursor: pointer;
+    background-color: orangered;
+    box-shadow: 20px 25px 25px rgba(255, 69, 0, 0.28) !important;
+}
+.ScooterDrive{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    scale: 1.2;
+    margin-top: 47%;
+    margin-left: -5%;
+    border-radius: 40px 0px 0px 40px;
+    box-shadow: 20px 25px 20px rgba(129, 129, 129, 0.37) !important;
+}
+@media only screen and (max-width: 400px) {
+    .fastDel1{
+        margin: auto;
+        margin-top: -10%;
+        width: 90% !important;
+    }
+    .fastDel2{
+        margin-top: -10%;
+
+        width: 100% !important;
+    }
+    .fastDel2main span {
+        width: 1.7%;
+        height: 3.5%;
+    }
+
+    .fastDel2main{
+        height: 420px !important;
+        margin-bottom: 40%;
+    }
+    .ScooterDrive{
+        box-shadow: none !important;
+        scale: 0.9;
+        margin: auto;
+
+    }
+    .fastDel2main21{
+        margin-top: 5%;
+        margin-left: -10%;
+        width: 70% !important;
+    }
+    .fastDel2main span{
+        width: 5%;
+
+    }
+    .TLeaf{
+        height: 7%;
+        width: 13%;
+        margin: auto;
+        margin-bottom: -2.5%;
+    }
+    .fastDel2main22{
+
+        font-size: 180%;
+        width: 90%;
+
+    }
+    .fastcup{
+        width: 40%;
+        margin-top: -72%;
+
+        margin-left: 60%;
+
+    }
+    .fastcube{
+        margin-top: -55%;
+        width: 22%;
+        margin-left: 1%;
+        margin-bottom: 40%;
+    }
+    .fastDel2main23 {
+        margin-top: 9%;
+        width: 90%;
+
+
+    }
+    .fastDel2main24{
+
+        width: 70% !important;
+        color: #fdfdfd;
+        padding: 10px;
+        margin-left: -15%;
+        margin-top: 5% !important;
+
+    }
+    .fastDel2main24 strong{
+
+        font-weight: 400;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .fastDel2main21{
+        width: 50%;
+        font-size: 100%;
+    }
+    .fastDel2main22{
+        font-size: 200%;
+        width: 80%;
+    }
+    .fastDel2main{
+        height: 380px;
+    }
+    .fastDel2main24{
+        margin-top: 5%;
+        scale: 0.8;
+        width: 35%;
+    }
+
+}
