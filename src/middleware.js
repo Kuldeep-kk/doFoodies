@@ -3,7 +3,7 @@ import {NextResponse} from "next/server";
 export function middleware(request){
     console.log("middleware executed");
 
-    const loginToken=(request.cookies.get("loginTokenRMS") || request.cookies.get("next-auth.session-token")) ?.value;
+    const loginToken=(request.cookies.get("loginTokenRMS") || request.cookies.get("__Secure-next-auth.session-token")) ?.value;
 
     if(request.nextUrl.pathname === "/api/login" || request.nextUrl.pathname === "/api/users" || request.nextUrl.pathname === "/api/userauth"){
         return
