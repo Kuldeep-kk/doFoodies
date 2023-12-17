@@ -33,6 +33,9 @@ export function middleware(request){
             }
             return NextResponse.redirect(new URL('/Login',request.url));
         }
+        else if (request.nextUrl.pathname === "/") {
+      return NextResponse.redirect(new URL("/Home", request.url));
+    }
     }
 
 
