@@ -34,7 +34,7 @@ const authOptions={
 
                     if(!userExists) {
                         await MyMailer(name,email,"Welcome to doFoodies:)");
-                        const res = await fetch('http://localhost:3000/api/userauth', {
+                        const res = await fetch('https://dofoodies.vercel.app/api/userauth', {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json",
